@@ -55,7 +55,7 @@
 
 ### Quantitative Analysis
 
-**Correlation Heatmap**
-![](download.png)
+#### Correlation Heatmap
+![Correlation Heatmap](download.png)
 
 
