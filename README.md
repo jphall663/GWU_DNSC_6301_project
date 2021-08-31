@@ -42,3 +42,15 @@
 * **Number of rows in test data**: 7,500
 * **State any differences in columns between training and test data**: None
 
+### Model details
+* **Columns used as inputs in the final model**: 'LIMIT_BAL', 'SEX', 'RACE', 'EDUCATION', 'MARRIAGE', 'AGE',
+       'PAY_0', 'PAY_2', 'PAY_3', 'PAY_4', 'PAY_5', 'PAY_6', 'BILL_AMT1',
+       'BILL_AMT2', 'BILL_AMT3', 'BILL_AMT4', 'BILL_AMT5', 'BILL_AMT6',
+       'PAY_AMT1', 'PAY_AMT2', 'PAY_AMT3', 'PAY_AMT4', 'PAY_AMT5', 'PAY_AMT6'
+* **Column(s) used as target(s) in the final model**: 'DELINQ_NEXT'
+* **Type of model**: Decision Tree 
+* **Software used to implement the model**: Python, scikit-learn
+* **Version of the modeling software**: 0.22.2.post1
+* **Hyperparameters or other settings of your model**: `DecisionTreeClassifier(...)`
+
+
