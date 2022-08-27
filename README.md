@@ -62,6 +62,10 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ```
 ### Quantitative Analysis
 
+| Tr AUC | Val AUC | Test AUC |
+| ------ | ------- | -------- |
+| 0.3456 | 0.7891  | 0.7687 |
+
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
 
