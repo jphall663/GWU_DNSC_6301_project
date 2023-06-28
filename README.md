@@ -62,9 +62,10 @@ DecisionTreeClassifier(ccp_alpha=0.0, class_weight=None, criterion='gini',
 ```
 ### Quantitative Analysis
 
-| Tr AUC | Val AUC | Test AUC |
+| Train AUC | Validation AUC | Test AUC |
 | ------ | ------- | -------- |
-| 0.3456 | 0.7891  | 0.7687 |
+| 0.3456 | 0.7891  | 0.7687* |
+(*Test AUC taken from https://github.com/jphall663/GWU_rml/blob/master/assignments/model_eval_2023_06_21_12_52_47.csv)
 
 #### Correlation Heatmap
 ![Correlation Heatmap](download.png)
